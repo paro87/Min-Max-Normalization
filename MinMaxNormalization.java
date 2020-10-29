@@ -14,7 +14,7 @@ public class MinMaxNormalization {
     public static void populateSet(){
         int belowBound=1;
         int upperBound=10_000;
-        int setSize=10;
+        int setSize=500;
         int min=0;
         int max=0;
         List<BigDecimal> normalizationList = null;
